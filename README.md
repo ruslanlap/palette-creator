@@ -1,10 +1,14 @@
 # Palette Create
 
 A Python-based color palette generator that creates high-quality color scheme visualizations in both PNG and SVG formats.
+
+## Example Output
+
 PNG
 ![example_color_palette.png](https://github.com/ruslanlap/palette-create/blob/main/output/example_color_palette.png)
-and SVG
-![example_color_palette.png](https://github.com/ruslanlap/palette-create/blob/main/output/example_color_palette.svg)
+
+SVG
+![example_color_palette.svg](https://github.com/ruslanlap/palette-create/blob/main/output/example_color_palette.svg)
 
 ## Author
 
@@ -76,8 +80,8 @@ palette-create/
 ├── main.py
 ├── README.md
 └── output/
-    ├── frappe_color_palette.png
-    └── frappe_color_palette.svg
+    ├── example_color_palette.png
+    └── example_color_palette.svg
 ```
 
 ## Contributing
