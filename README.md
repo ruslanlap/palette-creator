@@ -1,42 +1,52 @@
-# Palette Create
+# 🎨 Palette Create
 
 A Python-based color palette generator that creates high-quality color scheme visualizations in both PNG and SVG formats.
 
-## Example Output
+## 🖼️ Example Output
 
-PNG
+**PNG**  
 ![example_color_palette.png](https://github.com/ruslanlap/palette-create/blob/master/output/example_color_palette.png)
 
-SVG
+**SVG**  
 ![example_color_palette.svg](https://github.com/ruslanlap/palette-create/blob/master/output/example_color_palette.svg)
 
-## Description
+---
 
-This tool generates a professional color palette visualization based on the Frappé color scheme. It provides detailed color information including HEX codes, RGB values, and HSL representations. The output can be generated in both high-resolution PNG (300 DPI) and scalable SVG formats.
+## 📜 Description
 
-## Features
+This tool generates a professional color palette visualization based on the **Frappé color scheme**. It provides detailed color information, including **HEX codes, RGB values, and HSL representations**. The output can be generated in both high-resolution PNG (300 DPI) and scalable SVG formats.
 
-- High-quality color palette visualization
-- Support for both PNG (300 DPI) and SVG output
-- Complete color information display (HEX, RGB, HSL)
-- Clean, modern design with color preview circles
-- Professional typography and layout
-- Dark theme interface
+---
 
-## Color Scheme
+## ✨ Features
 
-The Frappé color scheme includes like examle you can change the color scheme for your project 'colors []":
+- 🎨 High-quality color palette visualization
+- 🖼️ Support for both PNG (300 DPI) and SVG output
+- 📋 Complete color information display (HEX, RGB, HSL)
+- 🧼 Clean, modern design with color preview circles
+- 🖋️ Professional typography and layout
+- 🌙 Dark theme interface
 
-- Base colors (Rosewater, Flamingo, Pink, Mauve, Red, Maroon, Peach, Yellow)
-- Interface colors (Green, Teal, Sky, Sapphire, Blue, Lavender)
-- Text and surface colors (Text, Subtext, Overlay, Surface, Base, Mantle, Crust)
+---
 
-## Requirements
+## 🎨 Color Scheme
 
-- Python 3.x
-- Pillow (PIL) library
+The Frappé color scheme includes (customizable via **`colors []`**):
 
-## Installation
+- **Base Colors**: 🌸 Rosewater, 🦩 Flamingo, 💗 Pink, 💜 Mauve, 🔴 Red, 🩸 Maroon, 🍑 Peach, 🌟 Yellow
+- **Interface Colors**: 💚 Green, 🐟 Teal, 🌌 Sky, 🔷 Sapphire, 🔵 Blue, 💜 Lavender
+- **Text and Surface Colors**: 📝 Text, 🪶 Subtext, ☁️ Overlay, 🖤 Surface, ⚪ Base, 🌑 Mantle, 🌋 Crust
+
+---
+
+## ⚙️ Requirements
+
+- 🐍 Python 3.x
+- 🖼️ Pillow (PIL) library
+
+---
+
+## 📦 Installation
 
 ```bash
 # Clone the repository
@@ -49,11 +59,14 @@ cd palette-create
 pip install -U -r requirements.txt
 ```
 
-## Usage
+---
 
-```python
+## 🚀 Usage
+
+```bash
 # Generate both formats
 python main.py
+
 # Generate PNG version
 python main.py --png
 
@@ -64,14 +77,18 @@ python main.py --svg
 python main.py --png --svg
 ```
 
-## Output Examples
+---
+
+## 🖼️ Output Examples
 
 The generator creates two types of files:
 
-- `frappe_color_palette.png` - High-resolution bitmap image (300 DPI)
-- `frappe_color_palette.svg` - Scalable vector graphics file
+- **`frappe_color_palette.png`** - High-resolution bitmap image (300 DPI)
+- **`frappe_color_palette.svg`** - Scalable vector graphics file
 
-## File Structure
+---
+
+## 📂 File Structure
 
 ```
 palette-create/
@@ -82,34 +99,46 @@ palette-create/
     └── example_color_palette.svg
 ```
 
-## Contributing
+---
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+## 🤝 Contributing
 
-## License
+Contributions are welcome! Please feel free to submit a Pull Request. 🛠️
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
 
-## Acknowledgments
+## 📜 License
 
-- Frappé color scheme inspiration
-- PIL library for image processing
-- SVG standard for vector graphics
+This project is licensed under the **MIT License** - see the LICENSE file for details.
 
-## Contact
+---
+
+## 🌟 Acknowledgments
+
+- 🎨 Frappé color scheme inspiration
+- 🖼️ PIL library for image processing
+- 📐 SVG standard for vector graphics
+
+---
+
+## 📧 Contact
 
 - GitHub: [@ruslanlap](https://github.com/ruslanlap)
 
-## Version History
+---
 
-- 1.0.0 (2024-01-17)
+## 🕒 Version History
+
+- **1.0.0** (2024-01-17)
   - Initial release
   - Support for PNG and SVG output
-  - Complete Frappé color scheme implementation like example
+  - Complete Frappé color scheme implementation
   - Clean design with color preview circles
   - Professional typography and layout
   - Dark theme interface
 
-## Author
+---
+
+## 👨‍💻 Author
 
 [@ruslanlap](https://github.com/ruslanlap)
