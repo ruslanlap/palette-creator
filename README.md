@@ -5,10 +5,10 @@ A Python-based color palette generator that creates high-quality color scheme vi
 ## Example Output
 
 PNG
-[![example_color_palette.png](https://github.com/ruslanlap/palette-create/blob/main/output/example_color_palette.png?raw=true)](https://github.com/ruslanlap/palette-create/blob/main/output/example_color_palette.png)
+![example_color_palette.png](https://github.com/ruslanlap/palette-create/blob/master/output/example_color_palette.png)
 
 SVG
-[![example_color_palette.svg](https://github.com/ruslanlap/palette-create/blob/main/output/example_color_palette.svg?raw=true)](https://github.com/ruslanlap/palette-create/blob/main/output/example_color_palette.svg)
+![example_color_palette.svg](https://github.com/ruslanlap/palette-create/blob/master/output/example_color_palette.svg)
 
 ## Description
 
@@ -46,14 +46,12 @@ git clone https://github.com/ruslanlap/palette-create.git
 cd palette-create
 
 # Install required dependencies
-pip install Pillow
+pip install -U -r requirements.txt
 ```
 
 ## Usage
 
 ```python
-# Install required dependencies
-pip install -U -r requirements.txt
 # Generate both formats
 python main.py
 # Generate PNG version
