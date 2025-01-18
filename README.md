@@ -47,6 +47,29 @@ A Python-based color palette generator that creates high-quality color scheme vi
 
 ---
 
+# Table of Contents
+
+1. [Palette Create](#-palette-create)
+2. [Example Output](#️-example-output)
+   1. [Input Example](#in)
+   2. [Output Example](#out)
+3. [Description](#-description)
+4. [Features](#-features)
+5. [Color Scheme](#-color-scheme)
+6. [Requirements](#️-requirements)
+7. [Installation](#-installation)
+8. [Windows Users Note](#️--windows-users-note)
+   1. [ConvertApi Setup](#convertapi)
+9. [Usage](#-usage)
+10. [Output Examples](#️-output-examples)
+11. [File Structure](#-file-structure)
+12. [Contributing](#-contributing)
+13. [License](#-license)
+14. [Acknowledgments](#-acknowledgments)
+15. [Contact](#-contact)
+16. [Version History](#-version-history)
+17. [Author](#-author)
+
 ## 📜 Description
 
 This tool generates a professional color palette visualization based on the **Frappé color scheme**. It provides detailed color information, including **HEX codes, RGB values, and HSL representations**. The output can be generated in both high-resolution PNG (300 DPI) and scalable SVG formats.
@@ -94,7 +117,7 @@ cd palette-create
 pip install -U -r requirements.txt
 ```
 
-## ⊞ Windows Users Note
+## ⚠️ ⊞ Windows Users Note
 
 If you're using Windows, you'll need to install the `cairosvg` library separately. And you can do it with 'GTK for Windows Runtime Installer', 'MSYS2', 'WSL' and you can do a rain dance with mumbo-jumbo. But but I offer you a simple and easy way use API tool:
 
