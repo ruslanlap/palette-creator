@@ -199,7 +199,7 @@ This project is licensed under the **MIT License** - see the LICENSE file for de
 
 ## 🌟 Acknowledgments
 
-- 🎨 Frappé color scheme inspiration
+- 🎨 Frappé color scheme inspiration from beautiful 😍 Cattpuccin theme.
 - 🖼️ PIL library for image processing
 - 📐 SVG standard for vector graphics
 
