@@ -1,6 +1,31 @@
 # 🎨 Palette Create
 
+![Palette Create Logo](https://github.com/ruslanlap/palette-create/blob/master/logo.svg?raw=true)
+
 A Python-based color palette generator that creates high-quality color scheme visualizations in both PNG and SVG formats.
+
+# Table of Contents
+
+1. [Palette Create](#-palette-create)
+2. [Example Output](#️-example-output)
+   1. [Input Example](#in)
+   2. [Output Example](#out)
+3. [Description](#-description)
+4. [Features](#-features)
+5. [Color Scheme](#-color-scheme)
+6. [Requirements](#️-requirements)
+7. [Installation](#-installation)
+8. [Windows Users Note](#️--windows-users-note)
+   1. [ConvertApi Setup](#convertapi)
+9. [Usage](#-usage)
+10. [Output Examples](#️-output-examples)
+11. [File Structure](#-file-structure)
+12. [Contributing](#-contributing)
+13. [License](#-license)
+14. [Acknowledgments](#-acknowledgments)
+15. [Contact](#-contact)
+16. [Version History](#-version-history)
+17. [Author](#-author)
 
 ## 🖼️ Example Output
 
@@ -46,29 +71,6 @@ A Python-based color palette generator that creates high-quality color scheme vi
 ![example_color_palette.svg](https://github.com/ruslanlap/palette-create/blob/master/output/example_color_palette.svg)
 
 ---
-
-# Table of Contents
-
-1. [Palette Create](#-palette-create)
-2. [Example Output](#️-example-output)
-   1. [Input Example](#in)
-   2. [Output Example](#out)
-3. [Description](#-description)
-4. [Features](#-features)
-5. [Color Scheme](#-color-scheme)
-6. [Requirements](#️-requirements)
-7. [Installation](#-installation)
-8. [Windows Users Note](#️--windows-users-note)
-   1. [ConvertApi Setup](#convertapi)
-9. [Usage](#-usage)
-10. [Output Examples](#️-output-examples)
-11. [File Structure](#-file-structure)
-12. [Contributing](#-contributing)
-13. [License](#-license)
-14. [Acknowledgments](#-acknowledgments)
-15. [Contact](#-contact)
-16. [Version History](#-version-history)
-17. [Author](#-author)
 
 ## 📜 Description
 
