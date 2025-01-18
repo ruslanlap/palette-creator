@@ -94,12 +94,34 @@ cd palette-create
 pip install -U -r requirements.txt
 ```
 
+## ⊞ Windows Users Note
+
+If you're using Windows, you'll need to install the `cairosvg` library separately. And you can do it with 'GTK for Windows Runtime Installer', 'MSYS2', 'WSL' and you can do a rain dance with mumbo-jumbo. But but I offer you a simple and easy way use API tool:
+
+## ConvertApi
+
+1. Go to [convertapi.com](https://convertapi.com/) and login to [convertapi.com](https://convertapi.com/) and get your API key.
+2. Set your API key to environment variable `YOUR_API_KEY` in .env file.
+3. Set up venv.
+4. Run `pip install -r requirements-windows.txt`
+5. Run `python main-windows.py` and have fun
+
+ConvertApi is a free online service that allows you to convert files between different formats. You a have a 250 usage file for one month trial for your account.
+
 ---
 
 ## 🚀 Usage
 
 ```bash
+python -m venv venv
+venv\Scripts\activate
+or
+source venv/bin/activate
+# install requirements
+pip install -r requirements.txt
+
 # Generate both formats
+
 python main.py
 
 # Generate PNG version
