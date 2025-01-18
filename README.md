@@ -130,7 +130,7 @@ If you're using Windows, you'll need to install the `cairosvg` library separatel
 1. Go to [convertapi.com](https://convertapi.com/) and login to [convertapi.com](https://convertapi.com/) and get your API key.
 2. Set your API key to environment variable `YOUR_API_KEY` in .env file.
 3. Set up venv.
-4. Run `pip install -r requirements-windows.txt`
+4. Run `pip install -r requirements.txt` Rename `requirements-windows.txt` to `requirements.txt`.
 5. Run `python main-windows.py` and have fun
 
 ConvertApi is a free online service that allows you to convert files between different formats. You a have a 250 usage file for one month trial for your account.
