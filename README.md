@@ -167,8 +167,8 @@ python main.py --png --svg
 
 The generator creates two types of files:
 
-- **`frappe_color_palette.png`** - High-resolution bitmap image (300 DPI)
-- **`frappe_color_palette.svg`** - Scalable vector graphics file
+- **`example_color_palette.png`** - High-resolution bitmap image (300 DPI)
+- **`example_color_palette.svg`** - Scalable vector graphics file
 
 ---
 
