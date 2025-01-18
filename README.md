@@ -1,7 +1,7 @@
 # <div align="center">Palette Create</div>
 
 <div align="center">
-  <img src="https://github.com/ruslanlap/palette-create/blob/master/output/logo.svg?raw=true" alt="Palette Create Logo" />
+  <img src="https://github.com/ruslanlap/palette-create/blob/master/output/logo.svg?raw=true" alt="Palette Create Logo" width="200" />
 </div>
 
 A Python-based color palette generator that creates high-quality color scheme visualizations in both PNG and SVG formats.
