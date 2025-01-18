@@ -123,7 +123,7 @@ pip install -U -r requirements.txt
 
 ## ⚠️ ⊞ Windows Users Note
 
-If you're using Windows, you'll need to install the `cairosvg` library separately. And you can do it with 'GTK for Windows Runtime Installer', 'MSYS2', 'WSL' and you can do a rain dance with mumbo-jumbo. But but I offer you a simple and easy way use API tool:
+If you're using Windows, you'll need to install the `cairosvg` library separately. And you can do it with 'GTK for Windows Runtime Installer', 'MSYS2', 'WSL' and you can do a rain dance with mumbo-jumbo. But but I offer you a simple and easy way use API tool. It's called [ConvertApi](https://convertapi.com/). Follow the step by step guide to use ConvertApi below:
 
 ## ConvertApi
 
