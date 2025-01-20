@@ -73,7 +73,7 @@ A Python-based color palette generator that creates high-quality color scheme vi
 ![example_color_palette.svg](https://github.com/ruslanlap/palette-create/blob/master/output/example_color_palette.svg)
 
 **SVG**  
-![example_dracula_color_palette.svg](https://github.com/ruslanlap/palette-create/blob/master/output/example_dracula_color_palette.svg)****
+![example_dracula_color_palette.svg](https://github.com/ruslanlap/palette-create/blob/master/output/example_dracula_color_palette.svg)
 
 ---
 
