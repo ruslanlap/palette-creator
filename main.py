@@ -3,6 +3,7 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 import cairosvg
 
+
 def create_svg_palette():
     svg = '''<?xml version="1.0" encoding="UTF-8"?>
 <svg width="1400" height="1800" xmlns="http://www.w3.org/2000/svg">
