@@ -167,8 +167,8 @@ python main.py --png --svg
 
 The generator creates two types of files:
 
-- **`frappe_color_palette.png`** - High-resolution bitmap image (300 DPI)
-- **`frappe_color_palette.svg`** - Scalable vector graphics file
+- **`example_color_palette.png`** - High-resolution bitmap image (300 DPI)
+- **`example_color_palette.svg`** - Scalable vector graphics file
 
 ---
 
@@ -199,7 +199,7 @@ This project is licensed under the **MIT License** - see the LICENSE file for de
 
 ## 🌟 Acknowledgments
 
-- 🎨 Frappé color scheme inspiration
+- 🎨 Frappé color scheme inspiration from beautiful 😍 Cattpuccin theme.
 - 🖼️ PIL library for image processing
 - 📐 SVG standard for vector graphics
 
