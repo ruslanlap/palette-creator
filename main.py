@@ -1,11 +1,7 @@
 import argparse
+from PIL import Image, ImageDraw, ImageFont
 import os
-import sys
-import convertapi
-from dotenv import load_dotenv
-
-# Load environment variables from .env file
-load_dotenv()
+import cairosvg
 
 def create_svg_palette():
     svg = '''<?xml version="1.0" encoding="UTF-8"?>
@@ -69,51 +65,15 @@ def create_svg_palette():
 
     return "example_color_palette.svg"
 
-def convert_svg_with_api(svg_path, output_dir='.'):
-    api_key = os.getenv('YOUR_API_KEY')
-    if not api_key:
-        print("Error: API key not found in .env file")
-        sys.exit(1)
-    print(f"Using API key: {api_key}")
-    print(f"Converting file: {os.path.abspath(svg_path)}")
-    print(f"Output directory: {os.path.abspath(output_dir)}")
-    convertapi.api_credentials = api_key
-    
-    # Convert to PNG using ConvertAPI
-    try:
-        result = convertapi.convert('png', {
-            'File': svg_path
-        }, from_format='svg')
-        
-        # Get the result file URL
-        file_url = result.response['Files'][0]['Url']
-        print(f"Converted file URL: {file_url}")
-        
-        # Download the file using requests
-        import requests
-        response = requests.get(file_url)
-        if response.status_code == 200:
-            output_path = os.path.join(output_dir, 'example_color_palette.png')
-            with open(output_path, 'wb') as f:
-                f.write(response.content)
-            print(f"Successfully saved PNG to: {output_path}")
-        else:
-            print(f"Failed to download PNG file. Status code: {response.status_code}")
-    except Exception as e:
-        print(f"Error during conversion: {str(e)}")
-        sys.exit(1)
-
-def convert_svg_to_png(svg_path, png_path, use_api=False):
-    if use_api:
-        convert_svg_with_api(svg_path)
-    else:
-        print("Error: Local conversion requires Cairo library. Please install it or use --use-api option.")
-        sys.exit(1)
+def convert_svg_to_png(svg_path, png_path):
+    with open(svg_path, "rb") as svg_file:
+        png_bytes = cairosvg.svg2png(file_obj=svg_file)
+        with open(png_path, "wb") as png_file:
+            png_file.write(png_bytes)
 
 def main():
     parser = argparse.ArgumentParser(description='Generate color palette in PNG or SVG format')
     parser.add_argument('--svg', action='store_true', help='Generate SVG format only')
-    parser.add_argument('--use-api', action='store_true', help='Use ConvertAPI for conversion')
     args = parser.parse_args()
 
     # SVG is created first, PNG conversion follows if needed
@@ -122,7 +82,7 @@ def main():
         print(f"SVG palette has been saved as {output_svg}")
     else:
         output_png = "example_color_palette.png"
-        convert_svg_to_png(output_svg, output_png, args.use_api)
+        convert_svg_to_png(output_svg, output_png)
         print(f"PNG palette has been saved as {output_png}")
 
 if __name__ == "__main__":
