@@ -2,7 +2,7 @@ import argparse
 from PIL import Image, ImageDraw, ImageFont
 import os
 import cairosvg
-from color_palette import colors
+
 
 
 def create_svg_palette():
@@ -20,6 +20,7 @@ def create_svg_palette():
     <text x="720" y="160" class="header">RGB</text>
     <text x="1020" y="160" class="header">HSL</text>
 '''
+    from color_palette import colors
 
     y_position = 200
     for name, hex_code, rgb, hsl in colors:

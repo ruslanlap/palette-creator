@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="1800" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .title { font-size: 48px; font-family: Arial; fill: rgb(198, 208, 245); }
+        .header { font-size: 32px; font-family: Arial; fill: rgb(165, 173, 206); }
+        .text { font-size: 24px; font-family: Arial; fill: rgb(198, 208, 245); }
+    </style>
+    <rect width="100%" height="100%" fill="rgb(35, 38, 52)"/>
+    <text x="120" y="80" class="title">Example Pallete</text>
+    <text x="120" y="160" class="header">Color</text>
+    <text x="420" y="160" class="header">Hex</text>
+    <text x="720" y="160" class="header">RGB</text>
+    <text x="1020" y="160" class="header">HSL</text>
+    <circle cx="100" cy="210" r="15" fill="#f2d5cf"/>
+    <text x="140" y="220" class="text">Rosewater</text>
+    <text x="420" y="220" class="text">#f2d5cf</text>
+    <text x="720" y="220" class="text">rgb(242, 213, 207)</text>
+    <text x="1020" y="220" class="text">hsl(10deg, 57%, 88%)</text>
+    <circle cx="100" cy="270" r="15" fill="#eebebe"/>
+    <text x="140" y="280" class="text">Flamingo</text>
+    <text x="420" y="280" class="text">#eebebe</text>
+    <text x="720" y="280" class="text">rgb(238, 190, 190)</text>
+    <text x="1020" y="280" class="text">hsl(0deg, 59%, 84%)</text>
+    <circle cx="100" cy="330" r="15" fill="#f4b8e4"/>
+    <text x="140" y="340" class="text">Pink</text>
+    <text x="420" y="340" class="text">#f4b8e4</text>
+    <text x="720" y="340" class="text">rgb(244, 184, 228)</text>
+    <text x="1020" y="340" class="text">hsl(316deg, 73%, 84%)</text>
+    <circle cx="100" cy="390" r="15" fill="#ca9ee6"/>
+    <text x="140" y="400" class="text">Mauve</text>
+    <text x="420" y="400" class="text">#ca9ee6</text>
+    <text x="720" y="400" class="text">rgb(202, 158, 230)</text>
+    <text x="1020" y="400" class="text">hsl(277deg, 59%, 76%)</text>
+    <circle cx="100" cy="450" r="15" fill="#e78284"/>
+    <text x="140" y="460" class="text">Red</text>
+    <text x="420" y="460" class="text">#e78284</text>
+    <text x="720" y="460" class="text">rgb(231, 130, 132)</text>
+    <text x="1020" y="460" class="text">hsl(359deg, 68%, 71%)</text>
+    <circle cx="100" cy="510" r="15" fill="#ea999c"/>
+    <text x="140" y="520" class="text">Maroon</text>
+    <text x="420" y="520" class="text">#ea999c</text>
+    <text x="720" y="520" class="text">rgb(234, 153, 156)</text>
+    <text x="1020" y="520" class="text">hsl(358deg, 66%, 76%)</text>
+    <circle cx="100" cy="570" r="15" fill="#ef9f76"/>
+    <text x="140" y="580" class="text">Peach</text>
+    <text x="420" y="580" class="text">#ef9f76</text>
+    <text x="720" y="580" class="text">rgb(239, 159, 118)</text>
+    <text x="1020" y="580" class="text">hsl(20deg, 79%, 70%)</text>
+    <circle cx="100" cy="630" r="15" fill="#e5c890"/>
+    <text x="140" y="640" class="text">Yellow</text>
+    <text x="420" y="640" class="text">#e5c890</text>
+    <text x="720" y="640" class="text">rgb(229, 200, 144)</text>
+    <text x="1020" y="640" class="text">hsl(40deg, 62%, 73%)</text>
+    <circle cx="100" cy="690" r="15" fill="#a6d189"/>
+    <text x="140" y="700" class="text">Green</text>
+    <text x="420" y="700" class="text">#a6d189</text>
+    <text x="720" y="700" class="text">rgb(166, 209, 137)</text>
+    <text x="1020" y="700" class="text">hsl(96deg, 44%, 68%)</text>
+    <circle cx="100" cy="750" r="15" fill="#81c8be"/>
+    <text x="140" y="760" class="text">Teal</text>
+    <text x="420" y="760" class="text">#81c8be</text>
+    <text x="720" y="760" class="text">rgb(129, 200, 190)</text>
+    <text x="1020" y="760" class="text">hsl(172deg, 39%, 65%)</text>
+    <circle cx="100" cy="810" r="15" fill="#99d1db"/>
+    <text x="140" y="820" class="text">Sky</text>
+    <text x="420" y="820" class="text">#99d1db</text>
+    <text x="720" y="820" class="text">rgb(153, 209, 219)</text>
+    <text x="1020" y="820" class="text">hsl(189deg, 48%, 73%)</text>
+    <circle cx="100" cy="870" r="15" fill="#85c1dc"/>
+    <text x="140" y="880" class="text">Sapphire</text>
+    <text x="420" y="880" class="text">#85c1dc</text>
+    <text x="720" y="880" class="text">rgb(133, 193, 220)</text>
+    <text x="1020" y="880" class="text">hsl(199deg, 55%, 69%)</text>
+    <circle cx="100" cy="930" r="15" fill="#8caaee"/>
+    <text x="140" y="940" class="text">Blue</text>
+    <text x="420" y="940" class="text">#8caaee</text>
+    <text x="720" y="940" class="text">rgb(140, 170, 238)</text>
+    <text x="1020" y="940" class="text">hsl(222deg, 74%, 74%)</text>
+    <circle cx="100" cy="990" r="15" fill="#babbf1"/>
+    <text x="140" y="1000" class="text">Lavender</text>
+    <text x="420" y="1000" class="text">#babbf1</text>
+    <text x="720" y="1000" class="text">rgb(186, 187, 241)</text>
+    <text x="1020" y="1000" class="text">hsl(239deg, 66%, 84%)</text>
+    <circle cx="100" cy="1050" r="15" fill="#c6d0f5"/>
+    <text x="140" y="1060" class="text">Text</text>
+    <text x="420" y="1060" class="text">#c6d0f5</text>
+    <text x="720" y="1060" class="text">rgb(198, 208, 245)</text>
+    <text x="1020" y="1060" class="text">hsl(227deg, 70%, 87%)</text>
+    <circle cx="100" cy="1110" r="15" fill="#b5bfe2"/>
+    <text x="140" y="1120" class="text">Subtext 1</text>
+    <text x="420" y="1120" class="text">#b5bfe2</text>
+    <text x="720" y="1120" class="text">rgb(181, 191, 226)</text>
+    <text x="1020" y="1120" class="text">hsl(227deg, 44%, 80%)</text>
+    <circle cx="100" cy="1170" r="15" fill="#a5adce"/>
+    <text x="140" y="1180" class="text">Subtext 0</text>
+    <text x="420" y="1180" class="text">#a5adce</text>
+    <text x="720" y="1180" class="text">rgb(165, 173, 206)</text>
+    <text x="1020" y="1180" class="text">hsl(228deg, 29%, 73%)</text>
+    <circle cx="100" cy="1230" r="15" fill="#949cbb"/>
+    <text x="140" y="1240" class="text">Overlay 2</text>
+    <text x="420" y="1240" class="text">#949cbb</text>
+    <text x="720" y="1240" class="text">rgb(148, 156, 187)</text>
+    <text x="1020" y="1240" class="text">hsl(228deg, 22%, 66%)</text>
+    <circle cx="100" cy="1290" r="15" fill="#838ba7"/>
+    <text x="140" y="1300" class="text">Overlay 1</text>
+    <text x="420" y="1300" class="text">#838ba7</text>
+    <text x="720" y="1300" class="text">rgb(131, 139, 167)</text>
+    <text x="1020" y="1300" class="text">hsl(227deg, 17%, 58%)</text>
+    <circle cx="100" cy="1350" r="15" fill="#737994"/>
+    <text x="140" y="1360" class="text">Overlay 0</text>
+    <text x="420" y="1360" class="text">#737994</text>
+    <text x="720" y="1360" class="text">rgb(115, 121, 148)</text>
+    <text x="1020" y="1360" class="text">hsl(229deg, 13%, 52%)</text>
+    <circle cx="100" cy="1410" r="15" fill="#626880"/>
+    <text x="140" y="1420" class="text">Surface 2</text>
+    <text x="420" y="1420" class="text">#626880</text>
+    <text x="720" y="1420" class="text">rgb(98, 104, 128)</text>
+    <text x="1020" y="1420" class="text">hsl(228deg, 13%, 44%)</text>
+    <circle cx="100" cy="1470" r="15" fill="#51576d"/>
+    <text x="140" y="1480" class="text">Surface 1</text>
+    <text x="420" y="1480" class="text">#51576d</text>
+    <text x="720" y="1480" class="text">rgb(81, 87, 109)</text>
+    <text x="1020" y="1480" class="text">hsl(227deg, 15%, 37%)</text>
+    <circle cx="100" cy="1530" r="15" fill="#414559"/>
+    <text x="140" y="1540" class="text">Surface 0</text>
+    <text x="420" y="1540" class="text">#414559</text>
+    <text x="720" y="1540" class="text">rgb(65, 69, 89)</text>
+    <text x="1020" y="1540" class="text">hsl(230deg, 16%, 30%)</text>
+    <circle cx="100" cy="1590" r="15" fill="#303446"/>
+    <text x="140" y="1600" class="text">Base</text>
+    <text x="420" y="1600" class="text">#303446</text>
+    <text x="720" y="1600" class="text">rgb(48, 52, 70)</text>
+    <text x="1020" y="1600" class="text">hsl(229deg, 19%, 23%)</text>
+    <circle cx="100" cy="1650" r="15" fill="#292c3c"/>
+    <text x="140" y="1660" class="text">Mantle</text>
+    <text x="420" y="1660" class="text">#292c3c</text>
+    <text x="720" y="1660" class="text">rgb(41, 44, 60)</text>
+    <text x="1020" y="1660" class="text">hsl(231deg, 19%, 20%)</text>
+    <circle cx="100" cy="1710" r="15" fill="#232634"/>
+    <text x="140" y="1720" class="text">Crust</text>
+    <text x="420" y="1720" class="text">#232634</text>
+    <text x="720" y="1720" class="text">rgb(35, 38, 52)</text>
+    <text x="1020" y="1720" class="text">hsl(229deg, 20%, 17%)</text>
+</svg>
