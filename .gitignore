@@ -1,0 +1,16 @@
+# Environment files
+.env
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Build directories
+build/
+
+# Ignore the .gitignore file itself (this is unnecessary and removed)
