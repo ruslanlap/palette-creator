@@ -108,6 +108,8 @@ The Frappé color scheme includes (customizable via **`colors []`**):
 
 - 🐍 Python 3.x
 - 🖼️ Pillow (PIL) library
+- 📝 ConvertApi library (optional)
+- 🖌️ CairoSVG library
 
 ---
 
