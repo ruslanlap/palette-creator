@@ -166,7 +166,7 @@ FOR EXAMLE of create
 docker pull ruslanlap/palette-creator:latest
 
 # And then
-mkdir -p output && docker run --rm -v "$(pwd)/output:/app/custom" ruslanlap/palette-creator
+mkdir -p output && docker run --rm -v "$(pwd)/output:/app/output" ruslanlap/palette-creator
 # And now you can use it without any additional headaches
 
 
