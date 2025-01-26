@@ -162,10 +162,12 @@ python main.py --png --svg
 ## 🚢 Docker Usage
 
 ```bash
-# Two simple commands
+# Three simple commands
 docker pull ruslanlap/palette-creator:latest
 # And then
 docker run --rm -v $(pwd):/app palette-creator
+# And after
+docker build -t palette-creator:latest .
 # And now you can use it without any additional headaches
 ```
 
