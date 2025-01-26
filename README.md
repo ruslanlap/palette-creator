@@ -164,13 +164,13 @@ FOR EXAMLE of create
 ```bash
 # Three simple commands 
 docker pull ruslanlap/palette-creator:latest
-
-# And then
-mkdir -p output && docker run --rm -v "$(pwd)/output:/app/output" ruslanlap/palette-creator
-# And now you can use it without any additional headaches
-
-
 ```
+
+And then
+```bash
+mkdir -p output && docker run --rm -v "$(pwd)/output:/app/output" ruslanlap/palette-creator
+```
+And now you can use it without any additional headaches`
 
 You can pass your own color palette in the options. To do this, create a palette with a `.py` extension following this example:
 
