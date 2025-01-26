@@ -14,4 +14,5 @@ COPY . .
 RUN mkdir -p /app/output /app/custom && \
     chmod 777 /app/output /app/custom
 
-CMD ["sh", "-c", "python main.py && cp -r /app/output/* /app/custom/"]
+# У Dockerfile:
+    ENTRYPOINT ["python", "/app/main.py"]
