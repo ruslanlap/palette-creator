@@ -171,7 +171,7 @@ mkdir -p output && docker run --rm -v "$(pwd)/output:/app/output" ruslanlap/pale
 ```
 And now you can use it without any additional headaches
 
-### You can pass your own color palette in the options. To do this, create a palette with a `.py` `(example.py)` extension following this example:
+### You can pass your own color palette in the options. To do this, create a palette with a `.py` extension  `(example.py)` following this example:
 
 ```bash
 docker pull ruslanlap/palette-creator:latest && mkdir -p output
@@ -190,8 +190,8 @@ colors = [
 ]
 ```
 
-This means you need to define your custom colors in a similar format within a Python file and then provide the path to this file using the `--palette` argument when running the script."
-If you need further assistance or more detailed instructions, feel free to ask!
+This means you need to define your custom colors in a similar format within a Python file and then provide the path to this file using the `--palette` argument when running the script
+If you need further assistance or more detailed instructions, feel free to ask! JOIN!!!
 
 ```bash
 docker run --rm -v $(pwd):/app palette-creator --palette example.py
