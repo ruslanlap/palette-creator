@@ -35,7 +35,7 @@ def create_svg_palette(colors):
 '''
         y_position += 60
     svg += '</svg>'
-    output_svg = 'example_color_palette.svg'
+    output_svg = '/app/output/example_color_palette.svg'  # Save in the mounted directory
     with open(output_svg, 'w', encoding='utf-8') as f:
         f.write(svg)
     return output_svg
@@ -58,18 +58,21 @@ def main():
         colors = load_palette_from_file(args.palette)
     else:
         from color_palette import colors  # Default palette file
+    
+    output_svg = "/app/output/example_color_palette.svg"  # Path for SVG output
 
-    output_svg = create_svg_palette(colors)
+    # Always generate the SVG first
+    create_svg_palette(colors)
 
     if args.svg:
         print(f"SVG palette has been saved as {output_svg}")
     elif args.png:
-        output_png = "example_color_palette.png"
+        output_png = "/app/output/example_color_palette.png"
         convert_svg_to_png(output_svg, output_png)
         print(f"PNG palette has been saved as {output_png}")
     else:
         print("No format specified, defaulting to PNG...")
-        output_png = "example_color_palette.png"
+        output_png = "/app/output/example_color_palette.png"
         convert_svg_to_png(output_svg, output_png)
         print(f"PNG palette has been saved as {output_png}")
 
