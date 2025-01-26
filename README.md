@@ -161,8 +161,8 @@ python main.py --png --svg
 
 ## 🚢 Docker Usage
 FOR EXAMLE of create
-```bash
 # Three simple commands 
+```bash
 docker pull ruslanlap/palette-creator:latest
 ```
 
