@@ -164,11 +164,29 @@ python main.py --png --svg
 ```bash
 # Three simple commands
 docker pull ruslanlap/palette-creator:latest
-# And then
-docker run --rm -v $(pwd):/app palette-creator
 # And after
 docker build -t palette-creator:latest .
+# And then
+docker run --rm -v $(pwd):/app palette-creator
+
 # And now you can use it without any additional headaches
+
+```
+Sure, here is the translated text into English:
+
+"You can pass your own color palette in the options. To do this, create a palette with a `.py` extension following this example:
+
+```python
+colors = [
+    ("Rosewater", "#f2d5cf", "rgb(242, 213, 207)", "hsl(10deg, 57%, 88%)"),
+]
+```
+
+This means you need to define your custom colors in a similar format within a Python file and then provide the path to this file using the `--palette` argument when running the script."
+If you need further assistance or more detailed instructions, feel free to ask!
+
+```bash
+docker run --rm -v $(pwd):/app palette-creator --palette example.py
 ```
 
 ---
