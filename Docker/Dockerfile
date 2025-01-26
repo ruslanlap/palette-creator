@@ -1,7 +1,7 @@
-# Dockerfile
+# Use an official Python runtime as a parent image
 FROM python:3.9-slim
 
-# Встановлення системних залежностей
+# Install system dependencies
 RUN apt-get update && apt-get install -y \
     libcairo2-dev \
     pkg-config \
@@ -9,16 +9,16 @@ RUN apt-get update && apt-get install -y \
     gcc \
     && rm -rf /var/lib/apt/lists/*
 
-# Створення робочої директорії
+# Set the working directory in the container
 WORKDIR /app
 
-# Копіювання необхідних файлів
+# Copy the necessary files
 COPY requirements.txt .
 COPY main.py .
 COPY color_palette.py .
 
-# Встановлення залежностей
+# Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Запуск скрипта
+# Set the default command to run the script with arguments
 ENTRYPOINT ["python", "main.py"]
