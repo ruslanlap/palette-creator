@@ -161,7 +161,7 @@ python main.py --png --svg
 
 ## 🚢 Docker Usage
 FOR EXAMLE of create
-# Three simple commands 
+
 ```bash
 docker pull ruslanlap/palette-creator:latest
 ```
@@ -178,14 +178,12 @@ You can pass your own color palette in the options. To do this, create a palette
 docker pull ruslanlap/palette-creator:latest && mkdir -p output
 
 # And final create your own palette 
- docker run --rm \
+docker run --rm \
   -v "$(pwd)/output:/app/output" \
   -v "$(pwd)/example.py:/app/example.py" \
   ruslanlap/palette-creator --palette /app/example.py
- # And now you can use it without any additional headaches
-
 ```
-
+And now you can use it without any additional headaches
 
 ```python
 colors = [
