@@ -1,13 +1,15 @@
-# <div align="center">Palette Create</div>
-
+<div align="center">Palette Create</div>
 <div align="center">
   <img src="https://github.com/ruslanlap/palette-create/blob/master/output/logo.svg?raw=true" alt="Palette Create Logo" width="200" />
 </div>
 
 A Python-based color palette generator that creates high-quality color scheme visualizations in both PNG and SVG formats.
 
-# Table of Contents
+## Docker Setup
 
+You can also use Docker; it will be easy peasy!
+
+# Table of Contents
 1. [Palette Create](#-palette-create)
 2. [Example Output](#️-example-output)
    1. [Input Example](#in)
@@ -31,48 +33,45 @@ A Python-based color palette generator that creates high-quality color scheme vi
 
 ## 🖼️ Example Output
 
-## in
-
+### Input Example
+```python
+colors = [
+    ("Rosewater", "#f2d5cf", "rgb(242, 213, 207)", "hsl(10deg, 57%, 88%)"),
+    ("Flamingo", "#eebebe", "rgb(238, 190, 190)", "hsl(0deg, 59%, 84%)"),
+    ("Pink", "#f4b8e4", "rgb(244, 184, 228)", "hsl(316deg, 73%, 84%)"),
+    ("Mauve", "#ca9ee6", "rgb(202, 158, 230)", "hsl(277deg, 59%, 76%)"),
+    ("Red", "#e78284", "rgb(231, 130, 132)", "hsl(359deg, 68%, 71%)"),
+    ("Maroon", "#ea999c", "rgb(234, 153, 156)", "hsl(358deg, 66%, 76%)"),
+    ("Peach", "#ef9f76", "rgb(239, 159, 118)", "hsl(20deg, 79%, 70%)"),
+    ("Yellow", "#e5c890", "rgb(229, 200, 144)", "hsl(40deg, 62%, 73%)"),
+    ("Green", "#a6d189", "rgb(166, 209, 137)", "hsl(96deg, 44%, 68%)"),
+    ("Teal", "#81c8be", "rgb(129, 200, 190)", "hsl(172deg, 39%, 65%)"),
+    ("Sky", "#99d1db", "rgb(153, 209, 219)", "hsl(189deg, 48%, 73%)"),
+    ("Sapphire", "#85c1dc", "rgb(133, 193, 220)", "hsl(199deg, 55%, 69%)"),
+    ("Blue", "#8caaee", "rgb(140, 170, 238)", "hsl(222deg, 74%, 74%)"),
+    ("Lavender", "#babbf1", "rgb(186, 187, 241)", "hsl(239deg, 66%, 84%)"),
+    ("Text", "#c6d0f5", "rgb(198, 208, 245)", "hsl(227deg, 70%, 87%)"),
+    ("Subtext 1", "#b5bfe2", "rgb(181, 191, 226)", "hsl(227deg, 44%, 80%)"),
+    ("Subtext 0", "#a5adce", "rgb(165, 173, 206)", "hsl(228deg, 29%, 73%)"),
+    ("Overlay 2", "#949cbb", "rgb(148, 156, 187)", "hsl(228deg, 22%, 66%)"),
+    ("Overlay 1", "#838ba7", "rgb(131, 139, 167)", "hsl(227deg, 17%, 58%)"),
+    ("Overlay 0", "#737994", "rgb(115, 121, 148)", "hsl(229deg, 13%, 52%)"),
+    ("Surface 2", "#626880", "rgb(98, 104, 128)", "hsl(228deg, 13%, 44%)"),
+    ("Surface 1", "#51576d", "rgb(81, 87, 109)", "hsl(227deg, 15%, 37%)"),
+    ("Surface 0", "#414559", "rgb(65, 69, 89)", "hsl(230deg, 16%, 30%)"),
+    ("Base", "#303446", "rgb(48, 52, 70)", "hsl(229deg, 19%, 23%)"),
+    ("Mantle", "#292c3c", "rgb(41, 44, 60)", "hsl(231deg, 19%, 20%)"),
+    ("Crust", "#232634", "rgb(35, 38, 52)", "hsl(229deg, 20%, 17%)")
+]
 ```
-    colors = [
-        ("Rosewater", "#f2d5cf", "rgb(242, 213, 207)", "hsl(10deg, 57%, 88%)"),
-        ("Flamingo", "#eebebe", "rgb(238, 190, 190)", "hsl(0deg, 59%, 84%)"),
-        ("Pink", "#f4b8e4", "rgb(244, 184, 228)", "hsl(316deg, 73%, 84%)"),
-        ("Mauve", "#ca9ee6", "rgb(202, 158, 230)", "hsl(277deg, 59%, 76%)"),
-        ("Red", "#e78284", "rgb(231, 130, 132)", "hsl(359deg, 68%, 71%)"),
-        ("Maroon", "#ea999c", "rgb(234, 153, 156)", "hsl(358deg, 66%, 76%)"),
-        ("Peach", "#ef9f76", "rgb(239, 159, 118)", "hsl(20deg, 79%, 70%)"),
-        ("Yellow", "#e5c890", "rgb(229, 200, 144)", "hsl(40deg, 62%, 73%)"),
-        ("Green", "#a6d189", "rgb(166, 209, 137)", "hsl(96deg, 44%, 68%)"),
-        ("Teal", "#81c8be", "rgb(129, 200, 190)", "hsl(172deg, 39%, 65%)"),
-        ("Sky", "#99d1db", "rgb(153, 209, 219)", "hsl(189deg, 48%, 73%)"),
-        ("Sapphire", "#85c1dc", "rgb(133, 193, 220)", "hsl(199deg, 55%, 69%)"),
-        ("Blue", "#8caaee", "rgb(140, 170, 238)", "hsl(222deg, 74%, 74%)"),
-        ("Lavender", "#babbf1", "rgb(186, 187, 241)", "hsl(239deg, 66%, 84%)"),
-        ("Text", "#c6d0f5", "rgb(198, 208, 245)", "hsl(227deg, 70%, 87%)"),
-        ("Subtext 1", "#b5bfe2", "rgb(181, 191, 226)", "hsl(227deg, 44%, 80%)"),
-        ("Subtext 0", "#a5adce", "rgb(165, 173, 206)", "hsl(228deg, 29%, 73%)"),
-        ("Overlay 2", "#949cbb", "rgb(148, 156, 187)", "hsl(228deg, 22%, 66%)"),
-        ("Overlay 1", "#838ba7", "rgb(131, 139, 167)", "hsl(227deg, 17%, 58%)"),
-        ("Overlay 0", "#737994", "rgb(115, 121, 148)", "hsl(229deg, 13%, 52%)"),
-        ("Surface 2", "#626880", "rgb(98, 104, 128)", "hsl(228deg, 13%, 44%)"),
-        ("Surface 1", "#51576d", "rgb(81, 87, 109)", "hsl(227deg, 15%, 37%)"),
-        ("Surface 0", "#414559", "rgb(65, 69, 89)", "hsl(230deg, 16%, 30%)"),
-        ("Base", "#303446", "rgb(48, 52, 70)", "hsl(229deg, 19%, 23%)"),
-        ("Mantle", "#292c3c", "rgb(41, 44, 60)", "hsl(231deg, 19%, 20%)"),
-        ("Crust", "#232634", "rgb(35, 38, 52)", "hsl(229deg, 20%, 17%)")
-    ]
-```
 
-### out
+### Output Example
 
 **PNG**  
 ![example_color_palette.png](https://github.com/ruslanlap/palette-create/blob/master/output/example_color_palette.png)
 
 **SVG**  
-![example_color_palette.svg](https://github.com/ruslanlap/palette-create/blob/master/output/example_color_palette.svg)
-
-**SVG**  
+![example_color_palette.svg](https://github.com/ruslanlap/palette-create/blob/master/output/example_color_palette.svg)  
 ![example_dracula_color_palette.svg](https://github.com/ruslanlap/palette-create/blob/master/output/example_dracula_color_palette.svg)
 
 ---
@@ -118,27 +117,26 @@ The Frappé color scheme includes (customizable via **`colors []`**):
 ```bash
 # Clone the repository
 git clone https://github.com/ruslanlap/palette-create.git
-
 # Navigate to the project directory
 cd palette-create
-
 # Install required dependencies
 pip install -U -r requirements.txt
 ```
 
 ## ⚠️ ⊞ Windows Users Note
 
-If you're using Windows, you'll need to install the `cairosvg` library separately. And you can do it with 'GTK for Windows Runtime Installer', 'MSYS2', 'WSL' and you can do a rain dance with mumbo-jumbo. But but I offer you a simple and easy way use API tool. It's called [ConvertApi](https://convertapi.com/). Follow the step by step guide to use ConvertApi below:
+If you're using Windows, you'll need to install the `cairosvg` library separately. You can do this through various methods such as 'GTK for Windows Runtime Installer', 'MSYS2', 'WSL', etc., but I offer you a simpler way: using the API tool called [ConvertApi](https://convertapi.com/). Follow the step-by-step guide below to set up ConvertApi.
 
-## ConvertApi
+### ConvertApi Setup
 
-1. Go to [convertapi.com](https://convertapi.com/) and login to [convertapi.com](https://convertapi.com/) and get your API key.
-2. Set your API key to environment variable `YOUR_API_KEY` in .env file.
-3. Set up venv.
-4. Run `pip install -r requirements.txt` Rename `requirements-windows.txt` to `requirements.txt`.
-5. Run `python main-windows.py --use-api` and have fun
+1. Go to [convertapi.com](https://convertapi.com/) and log in to get your API key.
+2. Set your API key to an environment variable `YOUR_API_KEY` in the `.env` file.
+3. Set up a virtual environment (`venv`).
+4. Rename `requirements-windows.txt` to `requirements.txt`.
+5. Run `pip install -r requirements.txt`.
+6. Run `python main-windows.py --use-api` and enjoy.
 
-ConvertApi is a free online service that allows you to convert files between different formats. You a have a 250 usage file for one month trial for your account.
+ConvertApi is a free online service that allows you to convert files between different formats. You have a 250 usage file limit for one month during your trial period.
 
 ---
 
@@ -146,24 +144,29 @@ ConvertApi is a free online service that allows you to convert files between dif
 
 ```bash
 python -m venv venv
-venv\Scripts\activate
-or
-source venv/bin/activate
-# install requirements
+# Activate the virtual environment
+venv\Scripts\activate  # For Windows
+source venv/bin/activate  # For Unix or MacOS
+# Install requirements
 pip install -r requirements.txt
-
 # Generate both formats
-
 python main.py
-
 # Generate PNG version
 python main.py --png
-
 # Generate SVG version
 python main.py --svg
-
 # Generate both formats
 python main.py --png --svg
+```
+
+## 🚢 Docker Usage
+
+```bash
+# Two simple commands
+docker pull ruslanlap/palette-creator:latest
+# And then
+docker run --rm -v $(pwd):/app palette-creator
+# And now you can use it without any additional headaches
 ```
 
 ---
@@ -171,7 +174,6 @@ python main.py --png --svg
 ## 🖼️ Output Examples
 
 The generator creates two types of files:
-
 - **`example_color_palette.png`** - High-resolution bitmap image (300 DPI)
 - **`example_color_palette.svg`** - Scalable vector graphics file
 
@@ -204,7 +206,7 @@ This project is licensed under the **MIT License** - see the LICENSE file for de
 
 ## 🌟 Acknowledgments
 
-- 🎨 Frappé color scheme inspiration from beautiful 😍 Cattpuccin theme.
+- 🎨 Frappé color scheme inspiration from the beautiful 😍 Catppuccin theme.
 - 🖼️ PIL library for image processing
 - 📐 SVG standard for vector graphics
 
