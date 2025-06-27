@@ -3,4 +3,3 @@
 cairosvg   # For SVG generation
 Pillow     # For PNG generation
 argparse   # For command-line arguments
-
